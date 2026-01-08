@@ -10,3 +10,8 @@ if amount % 100 != 0:
         print("Please enter the amount in multiples of 100")
         continue
     # Check sufficient balance
+     if amount > balance:
+        print("Insufficient balance")
+        continue
+    # Deduct amount
+    balance -= amount
