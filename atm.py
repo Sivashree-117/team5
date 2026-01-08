@@ -10,7 +10,7 @@ while True:
         print("Please enter the amount in multiples of 100")
         continue
     # Check sufficient balance
-     if amount > balance:
+    if amount > balance:
         print("Insufficient balance")
         continue
     # Deduct amount
@@ -18,7 +18,7 @@ while True:
     print("Withdrawal successful!")
     print("Updated balance:", balance)
     # Ask to continue or exit
-    choice = input("\nDo you want to continue or exit? (continue/exit): ").lower()
+    choice = input("\nDo you want to continue or exit? (Continue/exit): ").lower()
     if choice == "exit":
         print("\nThank you for using the ATM,", name)
         break
